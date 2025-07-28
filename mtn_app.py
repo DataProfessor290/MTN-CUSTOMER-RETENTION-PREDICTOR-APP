@@ -8,7 +8,7 @@ import datetime
 # =============================
 @st.cache_data
 def load_data():
-    return "C:\Users\Data Professor\Desktop\MTN Project\mtn_customer_churn.csv")
+    return pd.read_csv("C:\Users\Data Professor\Desktop\MTN Project\mtn_customer_churn.csv")
     
 @st.cache_resource
 def load_model():
