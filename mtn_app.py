@@ -8,8 +8,8 @@ import datetime
 # =============================
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/Data Professor/Desktop/MTN Project/mtn_customer_churn.csv")
-
+    return "C:\Users\Data Professor\Desktop\MTN Project\mtn_customer_churn.csv")
+    
 @st.cache_resource
 def load_model():
     return joblib.load("C:/Users/Data Professor/Desktop/MTN Project/MTN XGB Classifier.pkl")
